@@ -76,11 +76,11 @@
        </widget>
       </item>
       <item>
-       <widget class="QStackedWidget" name="stackedWidget">
+       <widget class="QStackedWidget" name="RightWidget">
         <property name="currentIndex">
          <number>1</number>
         </property>
-        <widget class="QWidget" name="page">
+        <widget class="QWidget" name="page_01">
          <property name="maximumSize">
           <size>
            <width>768</width>
@@ -104,7 +104,7 @@
            <number>0</number>
           </property>
           <item>
-           <widget class="QFrame" name="frame">
+           <widget class="QFrame" name="TopButtonBox">
             <property name="minimumSize">
              <size>
               <width>800</width>
@@ -129,7 +129,7 @@
            </widget>
           </item>
           <item>
-           <widget class="QFrame" name="frame_2">
+           <widget class="QFrame" name="frame">
             <property name="minimumSize">
              <size>
               <width>800</width>
@@ -165,7 +165,7 @@
               <number>0</number>
              </property>
              <item>
-              <widget class="QFrame" name="frame_3">
+              <widget class="QFrame" name="CenterBox">
                <property name="minimumSize">
                 <size>
                  <width>540</width>
@@ -187,7 +187,7 @@
               </widget>
              </item>
              <item>
-              <widget class="QFrame" name="frame_4">
+              <widget class="QFrame" name="RightBox">
                <property name="minimumSize">
                 <size>
                  <width>0</width>
@@ -213,7 +213,7 @@
           </item>
          </layout>
         </widget>
-        <widget class="QWidget" name="page_2">
+        <widget class="QWidget" name="page_02">
          <layout class="QVBoxLayout" name="verticalLayout_3">
           <property name="spacing">
            <number>0</number>
@@ -234,22 +234,34 @@
            <widget class="QWidget" name="widget" native="true">
             <layout class="QVBoxLayout" name="verticalLayout_4">
              <property name="spacing">
-              <number>5</number>
+              <number>0</number>
              </property>
              <property name="leftMargin">
-              <number>5</number>
+              <number>0</number>
              </property>
              <property name="topMargin">
-              <number>5</number>
+              <number>0</number>
              </property>
              <property name="rightMargin">
-              <number>5</number>
+              <number>0</number>
              </property>
              <property name="bottomMargin">
-              <number>5</number>
+              <number>0</number>
              </property>
              <item>
-              <widget class="QFrame" name="frame_5">
+              <widget class="QFrame" name="TopBox">
+               <property name="minimumSize">
+                <size>
+                 <width>0</width>
+                 <height>90</height>
+                </size>
+               </property>
+               <property name="maximumSize">
+                <size>
+                 <width>16777215</width>
+                 <height>90</height>
+                </size>
+               </property>
                <property name="frameShape">
                 <enum>QFrame::Shape::StyledPanel</enum>
                </property>
@@ -259,7 +271,19 @@
               </widget>
              </item>
              <item>
-              <widget class="QFrame" name="frame_6">
+              <widget class="QFrame" name="MiddleBox">
+               <property name="minimumSize">
+                <size>
+                 <width>0</width>
+                 <height>45</height>
+                </size>
+               </property>
+               <property name="maximumSize">
+                <size>
+                 <width>16777215</width>
+                 <height>45</height>
+                </size>
+               </property>
                <property name="frameShape">
                 <enum>QFrame::Shape::StyledPanel</enum>
                </property>
@@ -269,7 +293,7 @@
               </widget>
              </item>
              <item>
-              <widget class="QFrame" name="frame_7">
+              <widget class="QFrame" name="DownBox">
                <property name="frameShape">
                 <enum>QFrame::Shape::StyledPanel</enum>
                </property>
